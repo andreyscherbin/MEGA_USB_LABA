@@ -4,15 +4,15 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../src/Device.cpp \
+../src/names.cpp \
 ../src/usb.cpp 
 
 OBJS += \
-./src/Device.o \
+./src/names.o \
 ./src/usb.o 
 
 CPP_DEPS += \
-./src/Device.d \
+./src/names.d \
 ./src/usb.d 
 
 
